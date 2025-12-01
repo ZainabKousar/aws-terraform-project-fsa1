@@ -66,15 +66,24 @@ All of this is automated with one Terraform apply.
                  └──────────────────────────────┘
 
 🛠️ How to Run This Project
+
 1️⃣ Clone the Repository
 git clone <your-repo-url>
 cd aws-terraform-project-fsa1
+
+
 2️⃣ Initialize Terraform
 terraform init
+
+
 3️⃣ Review the Plan
 terraform plan
+
+
 4️⃣ Deploy Everything
 terraform apply -auto-approve
+
+
 🎉 Done! Your AWS infrastructure is live.
 
 🔍 How to Test the Application After Deployment
@@ -113,19 +122,31 @@ If it loads successfully, your RDS + SG rules + PHP stack are working perfectly.
 📂 Project Structure
 
 ├── main.tf                 # Main infrastructure definitions
+
 ├── vpc.tf                  # VPC + networking
+
 ├── ec2.tf                  # Launch template + ASG
+
 ├── alb.tf                  # Application Load Balancer
+
 ├── rds.tf                  # MySQL database
+
 ├── security-groups.tf      # All SGs
+
 ├── outputs.tf              # ALB, RDS outputs
+
 ├── variables.tf            # Input variables
+
 ├── user-data.sh            # Install PHP & application files
+
 ⭐ Key Features
+
 💡 Modular Design
+
 Everything is clean, separated, and easy to modify.
 
 🔐 Secure by Design
+
 EC2 in public subnet
 
 RDS in private subnet
@@ -133,6 +154,7 @@ RDS in private subnet
 SG restricts DB access only from EC2
 
 🔁 Fully Repeatable
+
 Destroy and recreate your entire AWS application any time:
 
 terraform destroy -auto-approve
@@ -146,4 +168,6 @@ All of this is automated with one Terraform apply.
 
 Author
 Zainab Kousar
+
+
 Cloud and DevOps Enthusiast
