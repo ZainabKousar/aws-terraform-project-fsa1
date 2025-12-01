@@ -167,8 +167,11 @@ Resume projects
 Demonstrating Terraform mastery
 
 🧑‍💻 Author
+
 Zainab Kousar
+
 Cloud & DevOps Engineer in Progress
+
 🚀 Passionate about automation, AWS, and real-world IaC projects.
 
 
