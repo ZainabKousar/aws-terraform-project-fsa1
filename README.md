@@ -162,7 +162,6 @@ terraform destroy -auto-approve
 
 All of this is automated with one Terraform apply.
 
-🌟 Architecture Diagram (Conceptual)
 
 
 
