@@ -28,7 +28,7 @@ Everything is designed with Infrastructure as Code (IaC) principles — meaning 
 
 📂 Project Structure
 
-'''
+```
 aws-project-terraform/
 ├── README.md
 ├── terraform.tfvars
@@ -58,7 +58,7 @@ aws-project-terraform/
         ├── variables.tf
         └── outputs.tf
         
-'''
+```
 
 
 Why This Matters
