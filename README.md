@@ -175,7 +175,7 @@ Demonstrating Terraform mastery
 
 Zainab Kousar
 
-Cloud & DevOps Engineer in Progress
+Cloud & DevOps Engineer 
 
 🚀 Passionate about automation, AWS, and real-world IaC projects.
 
