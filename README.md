@@ -31,28 +31,50 @@ Everything is designed with Infrastructure as Code (IaC) principles — meaning 
 aws-terraform-project-fsa1/
 │
 ├── main.tf                # Main configuration calling modules
+
 ├── variables.tf           # Centralized input variables
+
 ├── outputs.tf             # Output values for easy access
+
 ├── providers.tf           # AWS provider configuration
+
 ├── terraform.tfvars       # Variable values (not committed)
+
 │
 ├── modules/
+
 │   ├── vpc/
+
 │   │   ├── main.tf
+
 │   │   ├── variables.tf
+
 │   │   ├── outputs.tf
+
 │   │
+
 │   ├── ec2/
+
 │   │   ├── main.tf
+
 │   │   ├── variables.tf
+
 │   │   ├── outputs.tf
+
 │   │
+
 │   └── security/
+
 │       ├── main.tf
+
 │       ├── variables.tf
+
 │       ├── outputs.tf
+
 │
+
 └── .gitignore
+
 Why This Matters
 💡 Industry standards expect modular Terraform.
 This layout shows you understand professional IaC practices — which is a big plus for DevOps roles.
@@ -99,6 +121,7 @@ This downloads all required providers and sets up the state backend.
 
 2️⃣ Validate Everything
 terraform validate
+
 3️⃣ Preview the Infrastructure
 terraform plan
 This shows exactly what Terraform will create.
@@ -167,4 +190,4 @@ Zainab Kousar
 Cloud & DevOps Engineer in Progress
 🚀 Passionate about automation, AWS, and real-world IaC projects.
 
-📂 Project Structure
+
