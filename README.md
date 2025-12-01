@@ -3,7 +3,7 @@ Automated Cloud Provisioning • Secure Architecture • Scalable & Modular IaC
 Welcome to this repository!
 This project is a complete, real‑world AWS Infrastructure Deployment, fully automated using Terraform, built inside GitHub Codespaces, and structured in a clean, modular, production‑ready format.
 
-This README is written not just to document the project, but to tell the story of how the infrastructure comes alive — making it easy for recruiters, mentors, and teammates to quickly understand your architecture and workflow.
+This README is written not just to document the project, but to tell the story of how the infrastructure comes alive — making it easy for recruiters, mentors, and teammates to quickly understand the architecture and workflow.
 
 🚀 Project Overview
 This project automates the deployment of a full AWS environment using Terraform.
